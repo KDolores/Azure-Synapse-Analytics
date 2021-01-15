@@ -1,3 +1,6 @@
+--Código extraido de: https://docs.microsoft.com/en-us/azure/synapse-analytics/get-started-analyze-sql-pool
+
+
 CREATE TABLE [dbo].[Trip]
 (
     [DateID] int NOT NULL,
