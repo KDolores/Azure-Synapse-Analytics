@@ -1,3 +1,5 @@
+--Código extraido de: https://docs.microsoft.com/en-us/azure/synapse-analytics/get-started-analyze-sql-pool
+
 SELECT PassengerCount,
       SUM(TripDistanceMiles) as SumTripDistance,
       AVG(TripDistanceMiles) as AvgTripDistance
